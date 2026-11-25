@@ -1,0 +1,31 @@
+# Floating Flappy Bird
+
+A borderless, transparent, always-on-top **Flappy Bird** overlay for Windows built with Python & `tkinter` (zero external dependencies).
+
+## Signature Features
+- **Floats Over Windows**: Transparent, always-on-top playfield you can drag anywhere on your desktop.
+- **Physics-Aware Auto-Pilot**: Apex-predicting auto-pilot that adapts live to custom speed, gap size, gravity, and window size.
+- **Bird Evolution & Neon Motion Trail**: Evolves through **Classic** (`0+`) → **Cyber** (`10+`) → **Phoenix** (`25+`) → **Cosmic** (`50+`) with a glowing particle trail.
+- **Collectible Bonus Stars (`★ +3`)**: Pulsing gold stars spawn in pipe gaps for `+3` bonus points.
+- **Full Mouse Resizing**: Drag any of the 4 edges or 4 corners to resize (`320×260` up to full screen).
+- **Live Adjustments & Unlimited Score**: Toggle `∞ UNLI` mode or open `⚙` Adjustments (`S`) to tune Win Goal, Pipe Speed, Gap Size, Gravity, and Window Size.
+
+## Quick Start
+```powershell
+python flappy_float.py
+```
+Or double-click `run.bat` on Windows.
+
+## Controls
+- **`A` / Right-Click / `AUTO` button**: Toggle Auto-Pilot ON/OFF
+- **`U` / `∞ UNLI` button**: Toggle Unlimited Score vs. Goal mode
+- **`S` / `⚙` button**: Open Adjustments panel
+- **`B`**: Toggle outer frame
+- **`Space` / `Up` / Left-Click** (when Auto-Pilot is OFF): Flap
+- **`R` / `↻`**: Reset run
+- **`Esc` / `×`**: Close
+
+## Tests
+```powershell
+python -m unittest discover -v
+```
