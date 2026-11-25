@@ -1,5 +1,0 @@
-[console_scripts]
-flappy-float = flappy_float:main
-
-[gui_scripts]
-floating-flappy-bird = flappy_float:main

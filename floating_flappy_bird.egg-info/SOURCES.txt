@@ -1,8 +1,0 @@
-README.md
-flappy_float.py
-pyproject.toml
-floating_flappy_bird.egg-info/PKG-INFO
-floating_flappy_bird.egg-info/SOURCES.txt
-floating_flappy_bird.egg-info/dependency_links.txt
-floating_flappy_bird.egg-info/entry_points.txt
-floating_flappy_bird.egg-info/top_level.txt

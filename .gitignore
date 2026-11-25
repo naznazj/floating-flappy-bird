@@ -3,3 +3,6 @@ __pycache__/
 *.pyo
 .pytest_cache/
 .vscode/
+build/
+dist/
+*.egg-info/
