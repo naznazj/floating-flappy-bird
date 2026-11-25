@@ -10,7 +10,17 @@ A borderless, transparent, always-on-top **Flappy Bird** overlay for Windows bui
 - **Full Mouse Resizing**: Drag any of the 4 edges or 4 corners to resize (`320×260` up to full screen).
 - **Live Adjustments & Unlimited Score**: Toggle `∞ UNLI` mode or open `⚙` Adjustments (`S`) to tune Win Goal, Pipe Speed, Gap Size, Gravity, and Window Size.
 
-## Quick Start
+## Install from GitHub
+```powershell
+pip install git+https://github.com/naznazj/floating-flappy-bird.git
+```
+Then launch from anywhere:
+```powershell
+flappy-float
+```
+*(Or `floating-flappy-bird` for a windowless launch, or `pipx install git+https://github.com/naznazj/floating-flappy-bird.git`.)*
+
+## Run from Source
 ```powershell
 python flappy_float.py
 ```

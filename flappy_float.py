@@ -864,5 +864,10 @@ class FloatingFlappyApp:
         self.root.mainloop()
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Launch the Floating Flappy Bird desktop overlay."""
     FloatingFlappyApp().run()
+
+
+if __name__ == "__main__":
+    main()
